@@ -6,7 +6,9 @@ import java.sql.SQLException;
 import org.dnyanyog.common.DBUtil;
 import org.dnyanyog.dto.AddUserRequest;
 import org.dnyanyog.dto.AddUserResponse;
+import org.springframework.stereotype.Component;
 
+@Component
 public class AddUserService {
 	
 	public AddUserResponse addUser(AddUserRequest addUserRequest) throws SQLException {

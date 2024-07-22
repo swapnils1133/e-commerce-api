@@ -6,7 +6,9 @@ import java.sql.SQLException;
 import org.dnyanyog.common.DBUtil;
 import org.dnyanyog.dto.AddProductRequest;
 import org.dnyanyog.dto.AddProductResponse;
+import org.springframework.stereotype.Component;
 
+@Component
 public class AddProductService {
 	
 	public AddProductResponse addProduct(AddProductRequest addProductRequest) throws SQLException {
